@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >  
+<suite name="API Suite" parallel="tests">  
+  <test name="API_Validate_ResponseType_JSON" >
+  <parameter name="country-code"  value="US"/>
+  <parameter name="country-name"  value="India"/>
+    <classes>
+       <class name="APITesting.com.org.api.tests.API_Validate_ResponseType_JSON" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
